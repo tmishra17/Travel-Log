@@ -5,7 +5,14 @@ description = "A travel logging application"
 requires-python = ">=3.12"
 dependencies = [
     "mkdocs>=1.6.1",
-    "torch>=2.9.1",
+    "mkdocs-material>=9.0.0",
+    "mkdocs-include-markdown-plugin>=6.0.0",
+    "mkdocs-mermaid2-plugin>=1.1.1",
+    "mknotebooks>=0.7.1",
+    "mkdocstrings>=0.24.0",
+    "mkdocstrings-python>=0.10.0",
+    "streamlit>=1.28.0",
+    "torch>=2.0.0",
 ]
 
 [tool.uv.workspace]
