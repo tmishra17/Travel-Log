@@ -1,6 +1,7 @@
 site_name: Travel-Log
 site_description: Program that tracks the journey of someone's travel
-site_author: SupportVectors
+site_author: Tej Mishra
+copyright: 2025, Tej Mishra
 site_url: https://github.com/tmishra17/Travel-Log
 
 # -----------------------------------------------------------------------------
@@ -49,9 +50,8 @@ plugins:
   - mkdocstrings:
       handlers:
         python:
-          rendering:
+          options:
             show_source: true
-  - awesome-pages
   - mermaid2
   - include-markdown:
       comments: false #This stops the include-markdown plugin comments from being displayed
