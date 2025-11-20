@@ -1,0 +1,7 @@
+[project]
+name = "travel-log"
+version = "0.1.0"
+description = "Program to track the Journey of someone's travel"
+readme = "README.md"
+requires-python = ">=3.12"
+dependencies = []
